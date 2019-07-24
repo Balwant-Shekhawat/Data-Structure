@@ -1,3 +1,6 @@
+# In Case of Tree DFS Means Pre,Post,Inorder Traversal
+# These order works with Binary Tree only
+# DFS For Graph is different
 class Node:
     def __init__(self, item):
         self.data = item
@@ -12,6 +15,7 @@ class BinaryTree:
 
 def preorder_traversal(root):
     if root is None:
+        print("Empty Condition")
         return None
 
     print(root.data)
